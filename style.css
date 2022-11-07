@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #111b21;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container_message {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+#acesso {
+  width: 300px;
+  height: 400px;
+  padding: 30px 30px;
+  background-color: #233138;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#svg {
+  flex-direction: column;
+  position: relative;
+  margin-bottom: -10px;
+  display: flex;
+  align-items: center;
+}
+
+span {
+  color: #36f36e;
+}
+
+h1 {
+  display: flex;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+#info {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  max-width: 290px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+}
+
+#apelido {
+  outline: 0;
+  border: 2px solid #36f36e;
+  padding: 5px;
+  
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 767px) {
+}
+
+#button {
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  background: #36f36e;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 3px;
+  transition: background 0.3s, color 0.3s;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#button:hover {
+  background-color: #28d045;
+  color: #fff;
+}
+
+#historico_mensagens,
+#lista_usuarios {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 2px solid #45c5bf;
+  height: 550px;
+  float: left;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#sala_chat {
+  width: 100vw;
+  display: none;
+  font-size: 20px;
+}
+
+#option {
+  background-color: #d8d8d8;
+}
+
+#acesso_usuario form {
+  margin: 0;
+}
+
+#historico_mensagens {
+  border-right: 0;
+}
+
+#lista_usuarios {
+  border-left: 1px solid #45c5bf;
+  height: 554px;
+  width: 20%;
+  font-size: 16px;
+}
+
+#historico_mensagens .sistema {
+  width: 200px;
+  background-color: #36F36E;
+  color: #fff;
+  font-weight: 500;
+  margin: 5px 0;
+  border-radius: 3px;
+}
+
+.sistema {
+  font-size: 16px;
+}
+
+#texto_mensagem {
+  padding: 7px 0;
+  width: 90%;
+  border-radius: 0.5rem;
+  border: 2px solid #36f36e;
+}
+
+#historico_mensagens .privada {
+  background-color: #ccc;
+  color: #000;
+  font-weight: bold;
+}
